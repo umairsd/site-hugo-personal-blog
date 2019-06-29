@@ -1,10 +1,9 @@
-baseURL = "http://umairsaeed.com/"
+baseURL = "https://umairsaeed.com/"
 title = "Umair's Blog"
 languageCode = "en-US"
 
 # Theme to use
 theme = "talespin"
-
 
 pygmentsCodeFences = true
 pygmentsUseClasses = false
