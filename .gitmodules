@@ -2,3 +2,7 @@
 	path = themes/talespin
 	url = git@github.com:umairsd/talespin.git
 
+[submodule "public"]
+	path = public
+	url = git@github.com:umairsd/umairsd.github.io.git
+	branch = master
