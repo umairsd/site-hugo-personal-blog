@@ -1,0 +1,53 @@
+baseURL = "http://umairsaeed.com/"
+title = "Umair's Blog"
+languageCode = "en-US"
+
+# Theme to use
+theme = "talespin"
+
+
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsStyle = "monokai"
+
+paginate = 10
+preserveTaxonomyNames = true
+
+[author]
+  name = "Umair Saeed"
+
+[taxonomies]
+  category = "categories"
+  tags = "tags"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+  fractions = false
+  plainIDAnchors = true
+
+[params.social]
+  github = "https://github.com/umairsd"
+  twitter = "https://twitter.com/umairsd"
+  linkedin = "https://www.linkedin.com/in/umairsd/"
+  instagram = "https://www.instagram.com/umairsd/"
+  goodreads = "https://www.goodreads.com/umairsd"
