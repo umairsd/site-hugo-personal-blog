@@ -44,6 +44,10 @@ preserveTaxonomyNames = true
   fractions = false
   plainIDAnchors = true
 
+[params]
+  # Determines which sections are used to build the home screen.
+  mainSections = ["posts"]
+
 [params.social]
   github = "https://github.com/umairsd"
   twitter = "https://twitter.com/umairsd"
