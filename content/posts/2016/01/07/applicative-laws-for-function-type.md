@@ -2,7 +2,7 @@
 layout: post
 author: "Umair Saeed"
 title: "Applicative Laws for `((->) r)` Type"
-date: 2016-01-07 05:00:29 -0800
+date: 2016-01-07
 comments: false
 categories: [haskell]
 published: true

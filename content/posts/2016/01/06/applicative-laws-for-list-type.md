@@ -2,10 +2,9 @@
 layout: post
 author: "Umair Saeed"
 title: "Applicative Laws for `[]` Type"
-date: 2016-01-06 05:00:58 -0800
+date: 2016-01-06
 comments: false
 categories: [haskell]
-published: true
 ---
 
 Haskell's list type `[]` is an Applicative functor. Similar to the previous post, this post will verify that the applicative laws hold for the `[]` type.

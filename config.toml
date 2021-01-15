@@ -19,8 +19,10 @@ preserveTaxonomyNames = true
   category = "categories"
   tags = "tags"
 
-[menu]
+[permalinks]
+  posts = "/:filename"
 
+[menu]
   [[menu.main]]
     name = "Posts"
     url = "/"

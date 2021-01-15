@@ -4,6 +4,7 @@ author: "Umair Saeed"
 title: "Sublime Text &amp; Haskell"
 date: 2015-05-02 16:07:28 -0700
 comments: false
+lastmod: 2021-01-15
 categories: [haskell, tools]
 ---
 

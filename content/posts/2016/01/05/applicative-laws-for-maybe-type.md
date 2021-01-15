@@ -2,7 +2,7 @@
 layout: post
 author: "Umair Saeed"
 title: "Applicative Laws for `Maybe` Type"
-date: 2016-01-05 07:32:58 -0800
+date: 2016-01-05
 comments: false
 categories: [haskell]
 ---
