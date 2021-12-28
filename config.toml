@@ -51,8 +51,22 @@ preserveTaxonomyNames = true
   mainSections = ["posts"]
 
 [params.social]
-  github = "https://github.com/umairsd"
-  twitter = "https://twitter.com/umairsd"
-  linkedin = "https://www.linkedin.com/in/umairsd/"
-  instagram = "https://www.instagram.com/umairsd/"
-  goodreads = "https://www.goodreads.com/umairsd"
+  [[params.social.networks]]
+    identifer = "twitter"
+    url = "https://twitter.com/umairsd"
+
+  [[params.social.networks]]
+    identifer = "github"
+    url = "https://github.com/umairsd"
+
+  [[params.social.networks]]
+    identifer = "linkedin"
+    url = "https://www.linkedin.com/in/umairsd/"
+
+  [[params.social.networks]]
+    identifer = "goodreads"
+    url = "https://www.goodreads.com/umairsd"
+
+  [[params.social.networks]]
+    identifer = "instagram"
+    url = "https://www.instagram.com/umairsd/"
