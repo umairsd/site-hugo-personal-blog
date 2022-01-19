@@ -77,8 +77,6 @@ Based on the discussion above, we already know that if `S` begins from the start
 At this point, keep the pointer `F` at the orange-node where the two pointers met (i.e. `m`-nodes from the start of the loop), and move the pointer `S` to the beginning of the linked list [Figure-4]. Now, if we increment both `S` and `F` *one node at a time*, it is obvious that they will meet at 'Node-m' (red-node) of the list, which is the start of the loop.
 
 
-{% img center /images/circular-loop-figure-4.jpg Figure-4 %}
-
 {{< figure src="/img/circular-loop-figure-4.jpg"
     caption="Figure-4: S at the start of linked list, F at the point they met. Both increment one at a time from here-on" >}}
 
@@ -94,35 +92,28 @@ For the curious, here’s the Java code snippets for detecting a loop in a linke
  * instance:
  *     A -> B -> C -> D -> E -> C
  *
- * @param linkedList
- *            the linked list to be tested
+ * @param head
+ *            The linked list to be tested
  * @return true if there is a loop, false if there isn't
  */
-public static boolean hasLoop(LinkedList linkedList) {
-  if (linkedList == null || linkedList.getHead() == null) {
+public static boolean hasLoop(ListNode head) {
+  if (head == null) {
     return false;
   }
 
-  IntegerNode slow = linkedList.getHead();
-  IntegerNode fast = linkedList.getHead();
+  ListNode slow = head;
+  ListNode fast = head.next;
 
-  while (true) {
-    slow = slow.getNext();
-
-    if (fast.getNext() != null) {
-      fast = fast.getNext().getNext();
-    } else {
-      return false;
-    }
-
-    if (slow == null || fast == null) {
-      return false;
-    }
-
+  while(slow != null && fast != null && fast.next != null) {
     if (slow == fast) {
       return true;
     }
+
+    slow = slow.next;
+    fast = fast.next.next;
   }
+
+  return false;
 }
 ```
 
@@ -142,42 +133,36 @@ public static boolean hasLoop(LinkedList linkedList) {
  * @return the node at the start of the loop if there is a loop, null
  * otherwise
  */
-public static IntegerNode findLoopStart(LinkedList linkedList) {
-  if (linkedList == null || linkedList.getHead() == null) {
+public static ListNode findLoopStart(ListNode head) {
+  if (head == null) {
     return null;
   }
 
-  IntegerNode loopStartNode = null;
-  IntegerNode slow = linkedList.getHead();
-  IntegerNode fast = linkedList.getHead();
+  ListNode slow = head;
+  ListNode fast = head;
 
-  while (slow != null && fast != null) {
-    slow = slow.getNext();
-    if (fast.getNext() == null) {
-      loopStartNode = null;
-      break;
-    }
-    fast = fast.getNext().getNext();
-
-    // If slow and fast point to the same node, it means that the
-    // linkedList contains a loop.
+  while (fast != null && fast.next != null) {
+    slow = slow.next;
+    fast = fast.next.next;
     if (slow == fast) {
-
-      slow = linkedList.getHead();
-
-      while (slow != fast) {
-        // Keep incrementing the two pointers until they both
-        // meet again. When this happens, both the pointers will
-        // point to the beginning of the loop
-        slow = slow.getNext(); // Can't be null, as we have a loop
-        fast = fast.getNext(); // Can't be null, as we have a loop
-      }
-
-      loopStartNode = slow;
       break;
     }
   }
 
-  return loopStartNode;
+  // No cycle if the fast pointer gets to the end of the list.
+  if (fast == null) {
+    return null;
+  }
+
+  ListNode interesection = slow;
+  ListNode p1 = head;
+  ListNode p2 = intersection;
+
+  while (p1 != p2) {
+    p1 = p1.next;
+    p2 = p2.next;
+  }
+
+  return p1;
 }
 ```
