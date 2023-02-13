@@ -10,7 +10,7 @@ How is it February already?! Going with the mantra of "better late than never", 
 
 <!--more-->
 
-I read [59][y2022] books in 2022, which is in line with my recent trend of reading around 60 books per year (at least for the last 3 years). In the most recent years, I've read [61][y2021], [73][y2020], [100][y2019], and [94][y2018] books respectively.
+I read [59 books in 2022][y2022], which is in line with my recent trend of reading around 60 books per year. In the previous four years, I've read [61][y2021], [73][y2020], [100][y2019], and [94][y2018] books, respectively. 2018 and 2019 were amazingly productive in this respect. It is an open question for me to figure out the reasons and replicate them going forwards.
 
 Here are some of my favorite books:
 
