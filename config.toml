@@ -41,14 +41,17 @@ preserveTaxonomyNames = true
     weight = 3
 
 
+# `BlackFriday` is Hugo's built-in markdown rendering engine.
 [blackfriday]
   extensions = ["hardLineBreak"]
   fractions = false
   plainIDAnchors = true
 
+
 [params]
   # Determines which sections are used to build the home screen.
   mainSections = ["posts"]
+  googleAnalyticsId = "G-8V6E04YTKR"
 
 [params.social]
   [[params.social.networks]]
