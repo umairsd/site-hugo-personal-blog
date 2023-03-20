@@ -73,3 +73,20 @@ preserveTaxonomyNames = true
   [[params.social.networks]]
     identifer = "instagram"
     url = "https://www.instagram.com/umairsd/"
+
+
+[services.rss]
+    limit = 30
+
+# Add support for Atom feed.
+[mediaTypes]
+    [mediaTypes."application/atom"]
+    suffixes = ["xml"]
+
+[outputFormats.Atom]
+    mediaType = "application/atom"
+    baseName = "index"
+    isPlainText = false
+
+[outputs]
+    home = [ "HTML", "Atom" ]
