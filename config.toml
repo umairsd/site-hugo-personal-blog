@@ -35,10 +35,16 @@ preserveTaxonomyNames = true
     weight = 2
 
   [[menu.main]]
+    identifier = "atom-feed"
+    name = "Atom"
+    url = "/index.xml"
+    weight = 3
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 4
 
 
 # `BlackFriday` is Hugo's built-in markdown rendering engine.
