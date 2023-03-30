@@ -80,6 +80,10 @@ preserveTaxonomyNames = true
     identifer = "instagram"
     url = "https://www.instagram.com/umairsd/"
 
+  [[params.social.networks]]
+    identifer = "mastodon"
+    url = "https://mastodon.social/@umairsd"
+
 
 [services.rss]
     limit = 30
