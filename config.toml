@@ -83,6 +83,7 @@ preserveTaxonomyNames = true
   [[params.social.networks]]
     identifer = "mastodon"
     url = "https://mastodon.social/@umairsd"
+    disableNoopener = true
 
 
 [services.rss]
