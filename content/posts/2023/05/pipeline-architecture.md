@@ -39,41 +39,41 @@ The diagram below shows an example of a pipeline with four types of filters.
 ## Analysis of Quality Attributes
 
 
-#### Deployability (Low)
+### Deployability (Low)
 This architecture has a low score on deployability due to its monolithic nature. The entire application or website must be deployed as one unit, making frequent deployments hard. Even the simplest change requires a complete build and deployment of the whole application.
 
-#### Fault Tolerance (Low)
+### Fault Tolerance (Low)
 Pipeline architectures don’t support fault tolerance very well due to monolithic deployments and the lack of architectural modularity. If one part of a pipeline architecture causes an out-of-memory error, the entire application unit is impacted and crashes.
 
-#### Scalability (Low)
+### Scalability (Low)
 Due to its monolithic nature, the overall design of this architecture bakes in the scalability considerations. As a result, little can be done post-deployment to react to increased load.
 
-#### Elasticity (Low)
+### Elasticity (Low)
 Similar to scalability, this architecture style scores low for elasticity, as it cannot respond to increased user spikes beyond its baked-in capacity.
 
-#### Reliability (Medium)
+### Reliability (Medium)
 A pipeline architecture is the middle of the road for reliability. Given its medium scores on modularity testability, each stage of the pipeline can be verified independently.
 
 On the other hand, the monolithic nature, a bug (e.g., out-of-memory exception) in any part of the code risks bringing down the entire application, which hurts the reliability score for this architecture.
 
-#### Performance (Medium)
+### Performance (Medium)
 The use of pipes for communication between filters can introduce latency. Performance degradation can scale linearly with the number of filters in the path, leading to worse performance than tightly integrated monolithic designs.
 
 In some cases, creating parallel pipelines allows multiple stages to work on different data segments concurrently. This option leads to a medium overall score for performance.
 
-#### Modularity (Medium)
+### Modularity (Medium)
 Even though the overall application is monolithic, the filters are typically built as separate modules and thus help with the modularity score of this architecture.
 
-#### Extensibility (Medium)
+### Extensibility (Medium)
 We can add additional functionality via additional filter and transformer nodes, which makes it easier to add new paths of processing within this architecture. However, this cannot be done dynamically due to the monolithic nature of this architecture, resulting in a medium score.
 
-#### Testability (Medium)
+### Testability (Medium)
 The fact that the filters can be built as independent modules helps with the testability of this architecture. However, the score is pegged as a medium due to the monolith nature and low deployability.
 
-#### Simplicity (High)
+### Simplicity (High)
 The pipeline architecture simplifies the design of individual stages, making it conceptually easy to understand.
 
-#### Overall Cost (High)
+### Overall Cost (High)
 Pipeline architecture can reduce development and maintenance costs through modularity and extensibility. Due to its monolithic nature, it is relatively easy to build and maintain, which helps with its costs.
 
 
