@@ -1,7 +1,6 @@
 ---
 title: "Space Based Architecture"
 date: 2023-07-04T15:01:34-07:00
-draft: true
 categories: [system-design, software]
 ---
 
