@@ -15,7 +15,7 @@ This table shows that choosing the right architecture involves tradeoffs. Differ
 
 Another observation is that the service-oriented architecture scores medium or high across all the attributes, making it a good middle-of-the-road architecture. It can be a good choice for web-based applications.
 
-When making an architectural choice, a good insight to keep in mind is that the current choice should be good for the current needs of the business. Over time, the business *will* evolve, and as a result the software architcture will need to evolve over time.
+When making an architectural choice, a good insight to keep in mind is that the current choice should be good for the current needs of the business. Over time, the business *will* evolve, and as a result the software architecture will need to evolve over time.
 
 Finally, I've converted the previous blog posts into a downloadable [PDF sheet](/data/ArchitectureStylesComparison.pdf) that you can download.
 
