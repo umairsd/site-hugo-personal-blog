@@ -1,7 +1,7 @@
 ---
 title: "Space Based Architecture"
 date: 2023-07-04T15:01:34-07:00
-categories: [system-design, software]
+categories: [system-design, software, architecture]
 ---
 
 Space-based architecture is a software architecture pattern designed for highly-scalable, distributed systems that can handle large workloads and accommodate varying demand. It relies on the principles of partitioning and replication of data and processing components, allowing for parallelism, fault tolerance, and load balancing across the system.

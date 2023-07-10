@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Software Architecture Styles"
 date: 2023-04-17T11:28:21-07:00
-categories: [system-design, software]
+categories: [system-design, software, architecture]
 ---
 
 Software architecture is very context-dependent. Factors such as the software application's goals, the development team's size and budget, and business needs play a significant role in the choice of software architecture.

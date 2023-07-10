@@ -2,7 +2,7 @@
 title: "Software Architecture - It All Depends"
 date: 2023-07-10T09:13:13-07:00
 draft: true
-categories: [system-design, architecture]
+categories: [system-design, software, architecture]
 ---
 
 Now that I've reviewed some of the key software architectural styles, let's see a side-by-side comparison of various architectures in terms of the architectural quality attributes:

@@ -1,7 +1,7 @@
 ---
 title: "Event Driven Architecture"
 date: 2023-07-03T09:45:12-07:00
-categories: [system-design, software]
+categories: [system-design, software, architecture]
 ---
 
 

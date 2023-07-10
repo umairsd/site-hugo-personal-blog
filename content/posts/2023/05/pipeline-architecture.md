@@ -1,7 +1,7 @@
 ---
 title: "Pipeline Architecture"
 date: 2023-05-22T15:59:59-07:00
-categories: [system-design, software]
+categories: [system-design, software, architecture]
 ---
 
 A pipeline architecture is a monolithic architecture style, which means a single deployment unit for all of the code. The essential characteristic of pipeline architecture is that data or tasks are processed in a series of stages. Each stage receives the output from the previous stage, processes it, and passes it on to the next stage.

@@ -1,7 +1,7 @@
 ---
 title: "Layered Architecture"
 date: 2023-04-24T16:29:26-07:00
-categories: [system-design, software]
+categories: [system-design, software, architecture]
 ---
 
 Layered Architecture is a monolithic architecture style, which means a single deployment unit for all the code. This style is also known as the *n-tiered* architecture.

@@ -1,7 +1,7 @@
 ---
 title: "Service Oriented Architecture"
 date: 2023-05-24T08:17:56-07:00
-categories: [system-design, software]
+categories: [system-design, software, architecture]
 ---
 
 Service-Oriented Architecture (SOA), also known as, Service-Based Architecture (SBA), is a distributed architecture pattern in which an application is organized into a collection of loosely coupled, reusable **services**. Each service is a self-contained unit that performs a specific task or function, and communicates with other services using standard communication protocols, such as REST, SOAP, or gRPC.
