@@ -11,13 +11,13 @@ Now that I've reviewed some of the key software architectural styles, let's see 
 
 {{< figure src="/img/Paper-2023-Architecture-08-ArchitectureStylesSummary.png" width=90% >}}
 
-This table shows that choosing the right architecture involves tradeoffs. Different architectures have their strengths and weaknesses, and thus the "best" architecture style is highly dependent on the context (goals, business needs, budget, etc.).
+This table shows that choosing the right architecture involves tradeoffs. Each of the architectures has its strengths and weaknesses, and thus the "best" architecture style is highly dependent on the context (goals, business needs, budget, etc.).
 
-Another observation is that the service-oriented architecture scores medium or high across all the attributes, making it a good middle-of-the-road architecture. It can be a good choice for web-based applications.
+When making an architectural choice, a good insight to keep in mind is that the current choice should be good for the current needs of the business. Over time, the business *will* evolve, and as a result the software architecture will need to evolve to be effective.
 
-When making an architectural choice, a good insight to keep in mind is that the current choice should be good for the current needs of the business. Over time, the business *will* evolve, and as a result the software architecture will need to evolve over time.
+If I had to recommend a style for a team that's just getting started, I would recommend going with the service-oriented architecture as a good middle-of-the-road  option. This architectural style is easy to start with, scores medium or high across all the attributes, and can evolve easily with the change in business needs.
 
-Finally, I've converted the previous blog posts into a downloadable [PDF sheet](/data/ArchitectureStylesComparison.pdf) that you can download.
+Finally, I've summarized the previous blog posts into a downloadable [PDF sheet](/data/ArchitectureStylesComparison.pdf) that you can download.
 
 
 The full list of all the posts in this series is:
