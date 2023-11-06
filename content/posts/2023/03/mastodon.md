@@ -1,6 +1,7 @@
 ---
 title: "Mastodon"
 date: 2023-03-30T12:45:07-07:00
+author: Umair Saeed
 summary: >
   I've started using {{< custom_a title="Mastodon" url="https://mastodon.social/@umairsd" rel="me" >}}, so please feel free to follow.
 

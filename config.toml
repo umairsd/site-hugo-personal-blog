@@ -12,9 +12,6 @@ pygmentsStyle = "monokai"
 paginate = 10
 preserveTaxonomyNames = true
 
-[author]
-  name = "Umair Saeed"
-
 [taxonomies]
   category = "categories"
   tags = "tags"

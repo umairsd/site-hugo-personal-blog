@@ -1,6 +1,7 @@
 ---
 title: "Layered Architecture"
 date: 2023-04-24T16:29:26-07:00
+author: Umair Saeed
 categories: [system-design, software, architecture]
 ---
 

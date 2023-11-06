@@ -1,6 +1,7 @@
 ---
 title: "Collectors in Scheme"
 date: 2023-04-20T09:47:49-07:00
+author: Umair Saeed
 categories: [code, scheme, racket, fp]
 ---
 

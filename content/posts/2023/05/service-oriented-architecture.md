@@ -1,6 +1,7 @@
 ---
 title: "Service Oriented Architecture"
 date: 2023-05-24T08:17:56-07:00
+author: Umair Saeed
 categories: [system-design, software, architecture]
 ---
 

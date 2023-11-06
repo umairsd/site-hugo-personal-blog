@@ -1,7 +1,7 @@
 ---
 title: "Software Architecture - It All Depends"
 date: 2023-07-10T09:13:13-07:00
-draft: true
+author: Umair Saeed
 categories: [system-design, software, architecture]
 ---
 

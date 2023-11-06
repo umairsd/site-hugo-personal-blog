@@ -1,6 +1,6 @@
 ---
 layout: post
-author: "Umair Saeed"
+author: Umair Saeed
 title: "Applicative Laws for `[]` Type"
 date: 2016-01-06
 comments: false

@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Software Architecture Styles"
 date: 2023-04-17T11:28:21-07:00
+author: Umair Saeed
 categories: [system-design, software, architecture]
 ---
 

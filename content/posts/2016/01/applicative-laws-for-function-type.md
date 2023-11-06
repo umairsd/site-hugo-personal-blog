@@ -1,6 +1,6 @@
 ---
 layout: post
-author: "Umair Saeed"
+author: Umair Saeed
 title: "Applicative Laws for `((->) r)` Type"
 date: 2016-01-07
 comments: false

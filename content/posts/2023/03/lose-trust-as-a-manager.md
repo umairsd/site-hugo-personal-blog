@@ -1,6 +1,7 @@
 ---
 title: "How to Lose Trust as a Manager"
 date: 2023-03-07T10:52:40-08:00
+author: Umair Saeed
 categories: [career, management]
 ---
 

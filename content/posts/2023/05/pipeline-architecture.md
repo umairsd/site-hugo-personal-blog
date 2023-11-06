@@ -1,6 +1,7 @@
 ---
 title: "Pipeline Architecture"
 date: 2023-05-22T15:59:59-07:00
+author: Umair Saeed
 categories: [system-design, software, architecture]
 ---
 

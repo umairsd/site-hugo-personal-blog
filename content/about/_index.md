@@ -1,6 +1,6 @@
 ---
 title: "About this blog"
-author: "Umair Saeed"
+author: Umair Saeed
 date: 2018-12-31
 draft: false
 sharing: true

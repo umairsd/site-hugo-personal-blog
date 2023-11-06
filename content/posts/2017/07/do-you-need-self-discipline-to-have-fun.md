@@ -2,6 +2,7 @@
 layout: post
 title: "Do You Need Self Discipline To Have Fun?"
 date: 2017-07-03 07:08:05 -0700
+author: Umair Saeed
 comments: false
 categories: [linklog, productivity]
 external_url: https://www.scotthyoung.com/blog/2017/06/19/discipline-and-fun/

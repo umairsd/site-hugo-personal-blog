@@ -1,6 +1,6 @@
 ---
 layout: post
-author: "Umair Saeed"
+author: Umair Saeed
 title: "Applicative Laws for `Maybe` Type"
 date: 2016-01-05
 comments: false
