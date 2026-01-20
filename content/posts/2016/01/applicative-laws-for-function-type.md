@@ -5,7 +5,6 @@ title: "Applicative Laws for `((->) r)` Type"
 date: 2016-01-07
 comments: false
 categories: [haskell]
-published: true
 ---
 
 Haskell's function type `((->) r)` is an Applicative functor. Similar to the previous two posts in this series, in this post I will verify that the applicative laws hold for the `((->) r)` type.

@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = false
 pygmentsStyle = "monokai"
 
-paginate = 10
+pagination.pagerSize = 10
 preserveTaxonomyNames = true
 
 [taxonomies]
@@ -17,7 +17,7 @@ preserveTaxonomyNames = true
   tags = "tags"
 
 [permalinks]
-  posts = "/:filename"
+  posts = "/:contentbasename"
 
 [menu]
   [[menu.main]]
